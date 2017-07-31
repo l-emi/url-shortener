@@ -1,0 +1,30 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "url shortener project from fcc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-emi/url-shortener.git"
+  },
+  "author": "l-emi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l-emi/url-shortener/issues"
+  },
+  "homepage": "https://github.com/l-emi/url-shortener#readme",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.2",
+    "router": "^1.3.1"
+  }
+}
