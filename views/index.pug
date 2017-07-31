@@ -1,0 +1,25 @@
+doctype html 
+html(lang="en")
+    head
+        title URL Shortener
+        link(rel='stylesheet', href='css/styles.css')
+    body
+        div(class='container')
+
+            div(class='heading')
+                h1 URL Shortener
+                p Padd a URL as a parameter and receive a shortened URL in the JSON response. When visiting the URL, it will redirect you to the original link. 
+
+            div(class='usage')
+                h2 Example usage:
+                code https://url.herokuapp.com/new/https://www.google.com
+
+            div(class='output')
+                h2 Example output:
+                code { "original_url":"http://foo.com:80", "short_url":"https://url.herokuapp.com/8170" }
+                br
+                br
+                p So:
+                code https://little-url.herokuapp.com/2871
+                p will redirect to...
+                code https://www.google.com/

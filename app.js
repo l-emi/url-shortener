@@ -15,3 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 router.get('/', function(req, res) {
     res.render('index');
 });
+
+app.listen(port, function() {
+    console.log('Listening on port ', port);
+});
